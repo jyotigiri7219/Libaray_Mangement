@@ -23,7 +23,7 @@ class Library:
             "author" : author,
             "total_copies" : copies,
             "availabale_copies" : copies,
-            "added_on" : datetimenow.()strftime("%Y-%m-%d %H:%M:%S"),
+            "added_on" : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
 
         print(book)
