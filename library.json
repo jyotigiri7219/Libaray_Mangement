@@ -1,0 +1,13 @@
+{
+    "books": [
+        {
+            "id": "B-U",
+            "title": "tom",
+            "author": "jyoti",
+            "total_copies": 30,
+            "availabale_copies": 30,
+            "added_on": "2026-10-24 08:06:51"
+        }
+    ],
+    "members": []
+}
