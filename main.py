@@ -12,10 +12,12 @@ class Library:
     
     if Path(database).exists():
         with open(database,"r") as f:
-            content = f.read().split()
+            content = f.read()
 
-            if content:
-                data = json.loads(content)
+            if content.split():
+                f.seek(0)
+                data = json.load(f)
+            
     else:
         with open(database,"w") as f:
             json.dump(data,f,indent=4)
